@@ -1,0 +1,167 @@
+
+
+body{
+   background-color: rgb(88, 88, 88);
+  
+  
+}
+
+h1{
+    color: white;
+}
+
+.descricao{
+    background-image: url('/src/pages/Home/imgs/fundo.png');
+    height: 500px;
+}
+
+.desc1{
+
+    color: #fff;
+    font-size: 400%;
+    height: auto;
+    width: 40%;
+    margin-left: 7%;
+    
+}
+
+.desc2{
+    
+    color: #fff;
+    font-size: 150%;
+    height: auto;
+    width: auto;
+    margin-left: 7%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    
+}
+
+.card1{
+    padding-top: 5%;
+    border-radius: 5px;
+    margin-left: 2%;
+    height: auto;
+    width: 80%;
+    
+}
+.divisao2{
+    background-image: url('/src/pages/Home/imgs/fundo2.png');
+    width: 50%;
+    height: 700px;
+    float: left;
+    background-position-x:-130%;
+    background-position-y: 40%;
+    background-size: 650px;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    
+}
+
+.divisao3{
+    width: 50%;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+
+
+
+.desc3{
+    padding-top: 8%;
+    font-size: 200%;
+    margin-left: 15%;
+    margin-top: 15%;
+    width: 70%;
+    height: auto;
+    
+}
+
+.desc4{
+    
+    width: 70%;
+    height: auto;
+    font-size: 100%;
+    margin-left: 15%;
+    margin-top: 5%;
+    color: #3f3f3f;
+    padding-bottom: 8%;
+    
+}
+
+
+
+.footer{
+    height: 500px;
+    
+}
+
+.card2{
+    border-radius: 5px;
+    margin-left: 8%;
+    height: auto;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+}
+.container{
+    
+    text-align: center;
+    display: flex;
+    overflow-x: scroll;
+    padding: 10%;
+    width: 40%;
+    height: 70%;
+    scroll-snap-type:  x mandatory;
+    border-radius: 8px;
+    margin: 2rem auto;
+    gap: 12px;
+
+}
+
+.item1{
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+    background-color:aqua;
+    text-align: center;
+    flex: 0 0 100%;
+    border-radius: 8px;
+    scroll-snap-align: start;
+   
+    
+}
+.item2{
+    
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+    background-color:aqua;
+    text-align: center;
+    flex: 0 0 100%;
+    border-radius: 8px;
+    scroll-snap-align: start;
+    
+}
+.item3{
+    
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+    background-color:aqua;
+    text-align: center;
+    flex: 0 0 100%;
+    border-radius: 8px;
+    scroll-snap-align: start;
+   
+    
+}
+.item4{
+    
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+    background-color:aqua;
+    text-align: center;
+    flex: 0 0 100%;
+    border-radius: 8px;
+    scroll-snap-align: start;
+   
+    
+}
+

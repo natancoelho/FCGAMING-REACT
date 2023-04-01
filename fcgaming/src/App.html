@@ -1,0 +1,50 @@
+import React from 'react'
+
+
+
+
+const Equipe = (props) => {
+  return(
+    <div>
+          <Sobre username={props.nome} cargo={props.cargo} idade={props.idade}/>
+          <Social instagram={props.insta} facebook={props.face} linkedin={props.linkedin} />
+          
+
+    </div>
+
+  );
+}
+
+const Sobre = (props) => {
+  return(
+    <div>
+      <h2> Olá me chamo: {props.username}</h2>
+      <h3> Sou: {props.cargo} </h3>
+      <h4> Tenho: {props.idade}</h4>
+    </div>
+  );
+}
+const Social = (props) => {
+  return(
+    <div>
+    
+      <a> Meu insta: {props.instagram}</a> <br></br>
+      <a> Meu facebook: {props.facebook} </a>  <br></br>
+      <a> Linkedin: {props.linkedin}</a>
+    </div>
+  );
+}
+
+
+
+function App(){
+  return(
+    <div>
+      <h1> Conheça nossa equipe </h1>
+      <Equipe nome="Natan" cargo="Programador" idade="29" insta="instagram.com/natan" face="facebook.com/natan" linkedin="linkedin.com/natan"/>
+      
+      
+    </div>
+  );
+}
+export default App;
