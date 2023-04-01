@@ -4,7 +4,7 @@ import './style.css'
 
 function Header (){
     return(
-        
+        <div className='teste'>
         <header>
         
             <h2> FC GAMING</h2>
@@ -14,7 +14,7 @@ function Header (){
 
             </div>
             </header>
-          
+          </div>
         
         
     )

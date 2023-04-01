@@ -1,10 +1,14 @@
 
-
-body{
-   background-color: rgb(88, 88, 88);
-  
-  
+::-webkit-scrollbar{
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+    border-radius: 20px;
+    
+    width: 1rem;
 }
+::-webkit-scrollbar-thumb{
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+    border-radius: 20px;
+}   
 
 h1{
     color: white;
@@ -51,8 +55,8 @@ h1{
     width: 50%;
     height: 700px;
     float: left;
-    background-position-x:-130%;
-    background-position-y: 40%;
+    background-position-x:-130px;
+    background-position-y: 60px;
     background-size: 650px;
     background-repeat: no-repeat;
     background-color: #fff;
@@ -102,8 +106,10 @@ h1{
     margin-left: 8%;
     height: auto;
     width: 80%;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+   
+    backdrop-filter: blur(12px);
+    background-color: rgb(255, 255, 255, 0.05);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.4);
 }
 .container{
     
@@ -112,7 +118,7 @@ h1{
     overflow-x: scroll;
     padding: 10%;
     width: 40%;
-    height: 70%;
+    height: 65%;
     scroll-snap-type:  x mandatory;
     border-radius: 8px;
     margin: 2rem auto;
@@ -121,10 +127,9 @@ h1{
 }
 
 .item1{
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
-    background-color:aqua;
+    
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+    background-color:rgb(255, 255, 255);
     text-align: center;
     flex: 0 0 100%;
     border-radius: 8px;
@@ -134,18 +139,17 @@ h1{
 }
 .item2{
     
-    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
-    background-color:aqua;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+    background-color:rgb(255, 255, 255);
     text-align: center;
     flex: 0 0 100%;
     border-radius: 8px;
     scroll-snap-align: start;
-    
 }
 .item3{
     
-    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
-    background-color:aqua;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+    background-color:rgb(255, 255, 255);
     text-align: center;
     flex: 0 0 100%;
     border-radius: 8px;
@@ -155,8 +159,8 @@ h1{
 }
 .item4{
     
-    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
-    background-color:aqua;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+    background-color:rgb(255, 255, 255);
     text-align: center;
     flex: 0 0 100%;
     border-radius: 8px;
@@ -164,4 +168,115 @@ h1{
    
     
 }
+.rodape{
+    
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: rgb(24, 24, 24);
+    height: 800px;
+}
+.rodape2{
+    padding-top: 770px;
+}
 
+.sobre1{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+
+}
+.sobre2{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+
+}
+.sobre3{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+
+}
+.sobre4{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+
+}
+
+.foto1{
+    background-image: url('/src/pages/Home/imgs/fundo2.png');
+    background-position-x:-190px;
+    background-position-y: -10px;
+    background-size: 200px;
+    width: 50%;
+    height: 45%;
+    margin-left: 25%;
+    margin-top: 70px;
+    border-radius: 5000px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+}
+
+.foto2{
+    background-image: url('/src/pages/Home/imgs/fundo2.png');
+    background-position-x:-190px;
+    background-position-y: -10px;
+    background-size: 200px;
+    width: 50%;
+    height: 45%;
+    margin-left: 25%;
+    margin-top: 70px;
+    border-radius: 5000px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+}
+.foto3{
+    background-image: url('/src/pages/Home/imgs/fundo2.png');
+    background-position-x:-190px;
+    background-position-y: -10px;
+    background-size: 200px;
+    width: 50%;
+    height: 45%;
+    margin-left: 25%;
+    margin-top: 70px;
+    border-radius: 5000px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+}
+.foto4{
+    background-image: url('/src/pages/Home/imgs/fundo2.png');
+    background-position-x:-190px;
+    background-position-y: -10px;
+    background-size: 200px;
+    width: 50%;
+    height: 45%;
+    margin-left: 25%;
+    margin-top: 70px;
+    border-radius: 5000px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+}
+
+.sobredesc{
+   padding-left: 20px;
+   padding-top: 20px;
+   padding-right: 20px;
+}
