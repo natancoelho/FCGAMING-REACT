@@ -1,7 +1,8 @@
 body{
 
-    background: rgb(1,66,92);
-    background: linear-gradient(332deg, rgba(1,66,92,1) 0%, rgba(15,0,65,1) 49%, rgba(1,66,92,1) 96%, rgba(0,72,94,1) 100%);
+    scroll-behavior: smooth;
+    background: rgb(139,0,28);
+    background: linear-gradient(329deg, rgba(139,0,28,1) 0%, rgba(9,0,45,1) 41%, rgba(0,1,37,1) 100%);
 
 }
 
@@ -9,13 +10,13 @@ body{
 
 ::-webkit-scrollbar{
     
-    box-shadow: 0px 0px 10px 2px rgb(0, 0, 0);
+    cursor:grab;
     border-radius: 20px;
      height: 10px;
     width: 0rem;
 }
 ::-webkit-scrollbar-thumb{
-    
+    cursor:grab;
     background-color: white;
     border-radius: 30px;
 }   
@@ -26,28 +27,31 @@ h1{
 
 .descricao{
     
-    height: 600px;
+    height: 500px;
 }
 
 .desc1{
-    margin-top: -50px;
+    
+    margin-top: -120px;
     color: #fff;
     font-size: 400%;
     height: auto;
-    width: 40%;
+    width: 60%;
     margin-left: 4%;
+    margin-bottom: 20px;
     
 }
 
 .desc2{
-    
-    color: #fff;
+    letter-spacing: 2px;
+    line-height: 30px;
+    color: #c9c9c9;
     font-size: 150%;
     height: auto;
     width: auto;
     margin-left: 4%;
-    margin-top: 0%;
-    margin-bottom: 5%;
+    margin-top: 30px;
+    margin-bottom: 30%;
     padding-bottom: 5%;
     
 }
@@ -70,6 +74,7 @@ h1{
 
 
 .divisao2{
+    margin-top: 30px;
     display: flex;
     width: 100%;
     height: auto;
@@ -82,11 +87,13 @@ h1{
 }
 
 .card2{
-    
+
+    margin-top: 60px;
     border-radius: 10px;
     margin-left: 5%;
     height: 420px;
     width: 80%;
+   
    
     backdrop-filter: blur(11.6px);
     -webkit-backdrop-filter: blur(11.6px);
@@ -96,10 +103,10 @@ h1{
 
 }
 .entrar{
-    margin-top: -5%;
+    
     font-size: 15px;
     color: white;
-    margin-left: 120px;
+    margin-left: 14%;
     border-radius: 20px;
     border-style: none;
     padding: 15px;
@@ -130,9 +137,10 @@ h1{
 }
 
 .desc3{
+    
     color: #fff ;
     padding-top: 8%;
-    font-size: 200%;
+    font-size: 30px;
     margin-left: 15%;
     margin-top: 5%;
     width: 70%;
@@ -141,19 +149,18 @@ h1{
 }
 
 .desc4{
-    
+    letter-spacing: 1px;
     width: 70%;
-    height: auto;
+    height: 20%;
     font-size: 100%;
     margin-left: 15%;
     margin-top: 5%;
-    color: #ffffff;
-    padding-bottom: 8%;
+    color: #cfcfcf;
+    padding-bottom: 60px;
     
 }
 
 .container{
-
     margin-left: 100px;
     text-align: center;
     display: flex;
@@ -164,9 +171,8 @@ h1{
     scroll-snap-type:  x mandatory;
     border-radius: 8px;
     margin-right: 20px;
-    
     gap: 12px;
-    box-shadow: 30px 10px 20px 20px rgba(65, 63, 64, 0.178);
+    
 
 }
 
@@ -236,8 +242,11 @@ h1{
     margin-left: 15%;
     margin-top: 50px;
     padding-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+    border-radius: 40px;
+    backdrop-filter: blur(11.6px);
+    -webkit-backdrop-filter: blur(11.6px);
+    background-color: rgb(255, 255, 255, 0.05);
+    box-shadow: 10px 7px 10px  rgba(0, 0, 0, 0.4);
 
 }
 .sobre2{
@@ -247,8 +256,11 @@ h1{
     margin-left: 15%;
     margin-top: 50px;
     padding-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+    border-radius: 40px;
+    backdrop-filter: blur(11.6px);
+    -webkit-backdrop-filter: blur(11.6px);
+    background-color: rgb(255, 255, 255, 0.05);
+    box-shadow: 10px 7px 10px  rgba(0, 0, 0, 0.4);
 
 }
 .sobre3{
@@ -258,8 +270,11 @@ h1{
     margin-left: 15%;
     margin-top: 50px;
     padding-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+    border-radius: 40px;
+    backdrop-filter: blur(11.6px);
+    -webkit-backdrop-filter: blur(11.6px);
+    background-color: rgb(255, 255, 255, 0.05);
+    box-shadow: 10px 7px 10px  rgba(0, 0, 0, 0.4);
 
 }
 .sobre4{
@@ -269,11 +284,13 @@ h1{
     margin-left: 15%;
     margin-top: 50px;
     padding-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+    border-radius: 40px;
+    backdrop-filter: blur(11.6px);
+    -webkit-backdrop-filter: blur(11.6px);
+    background-color: rgb(255, 255, 255, 0.05);
+    box-shadow: 10px 7px 10px  rgba(0, 0, 0, 0.4);
 
 }
-
 .foto1{
     background-image: url('/src/pages/Home/imgs/jake.jpeg');
     background-position-x:-190px;
@@ -324,7 +341,9 @@ h1{
     box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
 }
 
+
 .sobredesc{
+
    padding-left: 20px;
    padding-top: 20px;
    padding-right: 20px;
@@ -350,9 +369,35 @@ h1{
     }
 }
 
+.pprivacidade{
+    margin-bottom: 20px;
+}
+
 
 @media (max-width: 1100px){
 
+    ::-webkit-scrollbar{
+        cursor:grab;
+        border-radius: 20px;
+        height: 10px;
+        width: 0rem;
+    }
+    ::-webkit-scrollbar-thumb{
+        
+    
+        
+    }   
+
+    .desc1{
+
+        font-size: 40px;
+
+    }
+
+    .desc2{
+
+        
+    }
     .item1{
        
     }
@@ -362,7 +407,7 @@ h1{
         align-items: center;
     }
     .card2{
-
+        margin-top: -50px;
         width: 300px;
         height: 400px;
     }
@@ -370,6 +415,7 @@ h1{
         font-size: 20px;
     }
     .desc4{
+        margin-bottom: 20px;
         font-size: 10px;
     }
     .divisao3{
@@ -378,6 +424,9 @@ h1{
         align-items: center;
     }
     .container{
+        
+        
+
         padding-right: 20px;
         width: 300px;
         margin-top: 50px;
@@ -405,6 +454,15 @@ h1{
     
     }
 
+    .desc3{
+        font-size: 20px;
+    }
+    
+    .desc4{
+        
+        line-height: 15px;
+        font-size: 12px;
+    }
    
    
 }

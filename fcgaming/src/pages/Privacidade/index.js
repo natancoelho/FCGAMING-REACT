@@ -1,12 +1,16 @@
-import { Link}  from 'react-router-dom';
-import './sobre.css'
+import './style.css'
+
+import Header from '..//../components/header'
+
+function Privacidade() {
+    
 
 
-function Sobre() {
-
+    
     return (
-
-        <div className='tudosobre'>
+       <body>
+    
+    <div className='tudosobre'>
         <div className='cardsobre'>
                 <h1 className='h1sobre'>Sobre</h1>
                 <p className='psobre'> Nós somos uma organização de games que se dedica a unir jogadores de todo o Brasil em uma comunidade acolhedora e amigável no Discord. Nós acreditamos que os jogos são uma forma poderosa de unir pessoas e criar laços duradouros, e por isso trabalhamos duro para fornecer um espaço onde jogadores de todos os níveis possam se conectar, compartilhar suas experiências e se divertir juntos. <br></br> <br></br>
@@ -22,8 +26,10 @@ Se você é um jogador apaixonado em busca de uma comunidade ativa e acolhedora,
         </div>
     </div>
     );
-
+      
+        </body>
+    );
 }
-   
+ 
 
-export default Sobre;
+export default Privacidade;

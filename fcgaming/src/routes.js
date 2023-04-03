@@ -3,9 +3,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home'
 import Sobre from './pages/Sobre'
 import Erro from './pages/Erro'
-import Filmes from './pages/Filmes'
+import Privacidade from './pages/Privacidade'
+
 
 import Header from "./components/header";
+
 
 function RouterApp(){
     return(
@@ -14,11 +16,8 @@ function RouterApp(){
             <Routes>
                 <Route path="/" element= {<Home/> }/>
                 <Route path="/sobre" element = {<Sobre/>} />
-                <Route path="/filmes/:id" element = {<Filmes/>} />
-
-
-
                 <Route path="*" element = {<Erro/>} />
+                <Route path="/privacidade" element = {<Privacidade/>} />
             </Routes>
         </BrowserRouter>
     )

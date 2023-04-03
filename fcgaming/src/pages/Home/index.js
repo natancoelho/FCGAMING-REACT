@@ -1,6 +1,8 @@
 import { Link}  from 'react-router-dom';
 import './style.css'
 
+
+
 function Home() {
     
 
@@ -11,21 +13,21 @@ function Home() {
     
             <div className='descricao'>
                 <div className='card1'>
-                    <p className='desc1'>FC GAMING</p>
-                    <p className='desc2'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in</p>
+                    <p className='desc1'>A maior comunidade de Gamers do Brasil</p>
+                    <p className='desc2'>Se você é um jogador apaixonado em busca de uma comunidade ativa e acolhedora, junte-se a nós! Estamos sempre procurando novos membros para se juntar a nós e ajudar a construir uma comunidade ainda mais vibrante e diversificada. Venha jogar conosco e fazer novos amigos hoje mesmo!</p>
                 </div>
             </div>
 
             <div className='divisao2'>
                 <div className='card2'>
-                <Link to="https://www.instagram.com/niicolasmota/">
+                <Link to="https://discord.gg/SRWSTtxsME">
                     <img className='discord1' src='/imgs/discord.png'/>
                     </Link>
                      <p className='desc3'>Venha fazer parte</p>
                      <p className='desc4'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in</p>
                         <button className='entrar'>
                             Entrar no Discord
-                        <Link to="https://www.instagram.com/niicolasmota/"></Link>
+                        <Link to="https://discord.gg/SRWSTtxsME"></Link>
                         </button>
                  </div>
          
@@ -38,7 +40,7 @@ function Home() {
                         <div className='sobre1'>
                             Jake
                             <p className='sobredesc'>
-                                bla bla bla bla bla bla bla bla
+                                Fundador da FC GAMING
                             </p>
                          </div>
                     </div>
@@ -51,7 +53,7 @@ function Home() {
                         <div className='sobre2'>
                             Natan
                             <p className='sobredesc'>
-                                bla bla bla bla bla bla bla bla
+                                Desenvolvedor e fundador
                             </p>
                         </div>
                     </div>
@@ -64,7 +66,7 @@ function Home() {
                         <div className='sobre3'>
                            Vitu
                            <p className='sobredesc'>
-                                bla bla bla bla bla bla bla bla
+                                Desenvolvedor e fundador
                             </p>
                         </div>
                     </div>
@@ -87,9 +89,10 @@ function Home() {
         
 
             <div className='rodape'>
-                <p className='rodape2'>
-                Copyright 2023, FC GAMING, todos os direitos reservados
-                </p>
+           
+            <Link to="/privacidade">
+                    <p className='pprivacidade'> Politica de Privacidade</p>
+                    </Link>
             </div>
       
         </body>

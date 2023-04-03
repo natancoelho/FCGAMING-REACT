@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.teste{
+    
+}
+
+
+
+header{
+    
+    
+    width: 100%;
+    height: 60px;
+    
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    backdrop-filter: blur(11.6px);
+    -webkit-backdrop-filter: blur(11.6px);
+    background-color: rgb(255, 255, 255, 0.05);
+    box-shadow: 10px 10px 30px  rgba(0, 0, 0, 0.2);
+    
+    
+}
+
+.menu{
+    margin-right: 20px;
+    
+}
+
+
+
+
+
+ h2 a{
+    
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-left: 20px;
+ }
+
+ h2 a:hover{
+    transition: 0.5s;
+    transform: scale(0.75);
+    color: rgb(167, 12, 45);
+ }
+
+.phome{
+    
+    display: inline;
+    border-radius: 10px;
+    padding: 10px;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    transition: 0.6s;
+    margin-left: 30px;
+    backdrop-filter: blur(11.6px);
+    -webkit-backdrop-filter: blur(11.6px);
+    background-color: rgba(255, 255, 255, 0.034);
+    
+   
+    
+}
+.psobre1{
+    
+    display: inline;
+    border-radius: 10px;
+    padding: 10px;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    transition: 0.6s;
+    margin-left: 30px;
+    backdrop-filter: blur(11.6px);
+    -webkit-backdrop-filter: blur(11.6px);
+    background-color: rgba(255, 255, 255, 0.034);
+   
+    
+}
+
+.phome:hover{
+   
+    transition: 0.5s;
+    transform: scale(0.75);
+    box-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.2);
+}
+
+.psobre1:hover{
+    transition: 0.5s;
+    transform: scale(0.75);
+    box-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.2);
+}
+
+.discord{
+    border-radius: 20%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    padding: 1%;
+    width: 50px;
+    margin-left: 50%;
+    
+}
+
+.discord:hover{
+    
+    transition: 0.5s;
+    transform: scale(0.75);
+}
+
+
+@media (max-width: 500px){
+
+    .phome{
+        display: none;
+        }
+    .discord{
+        
+        margin-left: 50%;
+    }
+
+    
+}
+
+

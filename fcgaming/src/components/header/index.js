@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './style.css'
+import './header.css'
 
 
 
@@ -17,7 +17,7 @@ function Header (){
 
             <div className='icones'>
 
-            <Link to="https://www.instagram.com/niicolasmota/">
+            <Link to="https://discord.gg/SRWSTtxsME">
                     <img className='discord' src='/imgs/discord.png'/>
                     </Link>
 
@@ -25,8 +25,12 @@ function Header (){
 
 
             <div className='menu'>
-                <Link to="/">Home</Link>
-                <Link to="/sobre">Sobre</Link>
+                <Link to="/">
+                <p className='phome'>Home</p>
+                </Link>
+                <Link to="/sobre">
+                    <p className='psobre1'>Sobre</p>
+                </Link>
 
             </div>
             </header>
