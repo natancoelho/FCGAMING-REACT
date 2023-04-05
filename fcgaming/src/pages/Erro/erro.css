@@ -36,6 +36,7 @@ h1{
 }
 
 .perro{
+    color: var(--alter_text);
     font-size: 30px;
     border-radius: 20px;
     backdrop-filter: blur(11.6px);

@@ -1,0 +1,107 @@
+.dark_mode{
+
+    margin-top: 20px;
+    justify-content: right;
+    width: 50px;
+    text-align: center;
+    margin-left: 95%;
+}
+
+.sol_lua{
+    margin-right: 18px;
+    width: 30px;
+    height: 30px;
+}
+
+
+
+.quad{
+    display: none;
+}
+
+.check{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: ease-in 0.5s;
+    backdrop-filter: blur(11.6px);
+    -webkit-backdrop-filter: blur(11.6px);
+    background-color: rgb(255, 255, 255, 0.05);
+    box-shadow: 10px 7px 10px  rgba(0, 0, 0, 0.4);
+}
+
+.quad:checked ~ .check{
+    backdrop-filter: blur(11.6px);
+    -webkit-backdrop-filter: blur(11.6px);
+    background-color: rgb(255, 255, 255, 0.05);
+    box-shadow: 10px 7px 10px  rgba(0, 0, 0, 0.4);
+}
+
+.check::before{
+    
+    content: '';
+    position: absolute;
+    top:2px;
+    left: 2px;
+    background-color: azure;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    transition: 0.2s;
+    
+}
+
+.quad:checked ~.check:before{
+
+        transform: translateX(-50px);
+}
+.check::after{
+    
+    content: '';
+    position: absolute;
+    top:2px;
+    left: 2px;
+    background-color: rgb(255, 255, 255);
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    transform: translateX(50px);
+}
+.quad:checked ~.check:after{
+
+    transform: translateX(20px);
+}
+
+:root{
+
+    
+
+
+
+    --miudas: rgb(167, 167, 167);
+    --body_background:background: rgb(5,1,14);
+    background: linear-gradient(312deg, rgba(5,1,14,1) 0%, rgba(0,1,20,1) 100%);
+    --body_color: rgb(255, 255, 255);
+    
+ }
+ 
+ [data-theme="light"] {
+    --body_background:background: rgb(255,255,255);
+    background: linear-gradient(329deg, rgba(255,255,255,1) 0%, rgba(174,205,255,1) 100%);
+    ;
+    --alter_text: rgb(19, 17, 51);
+    --body_color: rgb(19, 17, 51);
+    --miudas: rgb(19, 17, 51);;
+ }
+
+
+ @media (max-width: 1300px){
+
+        .dark_mode{
+            margin-left: 85%;
+        }
+    }

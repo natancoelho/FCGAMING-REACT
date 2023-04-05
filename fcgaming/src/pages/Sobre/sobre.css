@@ -1,13 +1,12 @@
-*{  
-    color: rgb(202, 197, 197);
-    
-}
+
 
 .tudosobre{
+    color: var(--alter_text);
     display: flex;
     justify-content: center;
     height: auto;
-    margin-bottom: 100px;
+    
+    
 }
 
 .cardsobre{
@@ -29,19 +28,11 @@
     
 }
 .psobre{
-    
+    color: var(--miudas);
     letter-spacing: 3px;
     line-height: 20px;
     margin-top: 20px;
     text-align: start;
-}
-.conteudosobre{
-    font-size: 10px;
-    line-height: 30px;
-    text-align: start;
-    letter-spacing: 5px;
-    margin-top: 30px;
-    color: white;
 }
 
 .h1executivos{
@@ -50,7 +41,8 @@
 }
 
 .pexecutivos{
-    
+
+    color: var(--miudas);
     letter-spacing: 3px;
     line-height: 20px;
     margin-top: 20px;
@@ -63,6 +55,7 @@
 }
 
 .pdev{
+    color: var(--miudas);
     letter-spacing: 3px;
     line-height: 20px;
     margin-top: 20px;
